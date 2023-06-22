@@ -1,0 +1,25 @@
+:root {
+  --color-fondobtn: #fea35d;
+  --color-margenbtn: #ff8a42;
+  --color-fondo: #ffe4c2;
+}
+ .small-image {
+      width: 80px; /* Cambia el valor según el tamaño deseado */
+      height: auto; /* Esto mantiene la proporción de la imagen */
+}
+.fondo{
+	background: var(--color-fondo);
+}
+.nbtn{
+	background: var(--color-fondobtn);
+	border-color: var(--color-margenbtn);
+}
+.nbtn:hover, .nbtn:active{
+	background-color: var(--color-margenbtn) !important;
+	border-color: var(--color-margenbtn);
+}
+.sbno:hover, .sbno:active{
+	background-color: var(--color-margenbtn) !important;
+	border-color: var(--color-margenbtn);
+}
+
