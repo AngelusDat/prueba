@@ -3,28 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda en línea</title>
+  <link rel="shortcut icon" href="img/icono.png">
+  <title>Arteneck</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Css/estilos.css">
 </head>
 <body>
   <header>
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Mi Tienda</a>
+      <img src="img/logo.png" class="small-image" alt="Logo">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="categoria1.html">Categoria1</a>
+            <a class="nav-link" href="index.html">Ofertas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="categoria2.html">Categoria2</a>
+            <a class="nav-link" href="categoria1.html">Collares</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="categoria3.html">Categoria3</a>
+            <a class="nav-link" href="categoria2.html">Pulseras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categoria3.html">Aretes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="registro.html">Registro</a>
@@ -32,14 +37,14 @@
         </ul>
         <!-- Formulario de búsqueda -->
         <form class="form-inline my-2 my-lg-0 mx-2">
-          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+          <input class="form-control col mr-4" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-primary my-2 my-sm-0 sbno" type="submit">
           <i class="fa fa-search" aria-hidden="true"></i>Buscar</button>
         </form>          
         <!-- Carrito de compras -->
         <ul class="navbar-nav">
           <li class="nav-item"> 
-            <a class="btn btn-outline-primary theme-btn" href="MiPedido.html">
+            <a class="btn btn-outline-primary theme-btn sbno" href="MiPedido.html">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i> Mi Pedido
             </a>
           </li>
@@ -54,36 +59,40 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card">
-            <img src="producto2.jpg" class="card-img-top" alt="Producto 2">
+            <div class="cel">
+            <img src="img/pulsera1.jpeg" class="card-img-top" alt="Producto 2">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Producto 2</h5>
-              <p class="card-text">Descripción del producto 2.</p>
-               <p> Carrito chocon</p>
-               <p>420$</p>
-               <p>can1</p>
-               <p>total:190$</p>
-              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              <h5 class="card-title">Corazon</h5>
+              <p class="card-text">Descripción:<br>Pulsera con piedras pequeñas traidas del mar y con un colgante de un corazon como el que se llevo tu ex</p>
+               <p>SKU:J475434</p>
+               <p>$359</p>
+               <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
             </div>
           </div>
           
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card">
-            <img src="producto2.jpg" class="card-img-top" alt="Producto 2">
+            <div class="cel">
+            <img src="img/pulsera2.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
             <div class="card-body">
-              <h5 class="card-title">Producto 2</h5>
-              <p class="card-text">Descripción del producto 2.</p>
+              <h5 class="card-title">Pulsera</h5>
+              <p class="card-text">Descripción:<br></p>
                <p> Carrito chocon</p>
                <p>420$</p>
                <p>can1</p>
                <p>total:190$</p>
-              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card">
-            <img src="producto2.jpg" class="card-img-top" alt="Producto 2">
+            <div class="cel">
+            <img src="img/pulsera3.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
             <div class="card-body">
               <h5 class="card-title">Producto 2</h5>
               <p class="card-text">Descripción del producto 2.</p>
@@ -91,7 +100,111 @@
                <p>420$</p>
                <p>can1</p>
                <p>total:190$</p>
-              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="cel">
+            <img src="img/pulsera4.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+              <p class="card-text">Descripción del producto 2.</p>
+               <p> Carrito chocon</p>
+               <p>420$</p>
+               <p>can1</p>
+               <p>total:190$</p>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="cel">
+            <img src="img/pulsera5.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+              <p class="card-text">Descripción del producto 2.</p>
+               <p> Carrito chocon</p>
+               <p>420$</p>
+               <p>can1</p>
+               <p>total:190$</p>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="cel">
+            <img src="img/pulsera6.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+              <p class="card-text">Descripción del producto 2.</p>
+               <p> Carrito chocon</p>
+               <p>420$</p>
+               <p>can1</p>
+               <p>total:190$</p>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="cel">
+            <img src="img/pulsera7.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">White</h5>
+              <p class="card-text">Descripción:<br>Es una pulsera sencilla de color blanco con un diseño de corazones incluidos, hecho con piedritas</p>
+               <p>SKU:45IHF09</p>
+               <p>$200</p>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="cel">
+            <img src="img/pulsera8.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Bonita como tu sonrisa</h5>
+              <p class="card-text">Descripción:<br>Es de color rojo con unas pequeñas piedras estilo oro</p>
+               <p>SKU:lO779f</p>
+               <p>$250</p>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="cel">
+            <img src="img/pulsera9.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Llevate 4 pulseras</h5>
+              <p class="card-text">Descripción :<br>Son 4 pulseras de distintos colores</p>
+               <p>SKU:45UREPO9</p>
+               <p>$620</p>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="cel">
+            <img src="img/pulsera10.jpeg" class="card-img-top" alt="Producto 2">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Pulsera de la Virgen</h5>
+              <p class="card-text">Descripción:<br>Tiene pequeños detalles con material de plata</p>
+               <p>SKU:U65ERT</p>
+               <p>$350</p>
+              <a href="#" class="btn btn-primary nbtn">Agregar al carrito</a>
             </div>
           </div>
         </div>
@@ -102,6 +215,7 @@
   <footer class="bg-light text-center py-4 mt-4 ">
     <div class="container">
     <p>&copy; 2023 Mi Tienda. Todos los derechos reservados.</p>
+    <p>Sefany Liliana Estrada de Leon, Guadalpe Lizbet Carrizales Torres,Jose Eleazar Sanchez Ibarra, Erik Eduardo Rodrguez Vazquez</p>
     </div>
   </footer>
 
